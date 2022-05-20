@@ -6,7 +6,7 @@
   </section>
   <router-link
     class="text-md text-white underline underline-offset-8"
-    to="/"
+    to="/crypto-price/"
   >
     Click here to go back to the home page
   </router-link>

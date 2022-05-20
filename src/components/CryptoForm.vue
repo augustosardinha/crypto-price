@@ -18,7 +18,7 @@
     </div>
     <div class="flex justify-center gap-5">
       <router-link
-        to="/"
+        to="/crypto-price/"
         class="py-3 px-12 rounded shadow-lg font-semibold text-sm  text-white bg-purple-700 hover:bg-purple-600"
       >
         BACK
