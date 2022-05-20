@@ -19,6 +19,8 @@ import { cryptos } from '../utils/cryptos'
 
 const store = useStore()
 const changeCrypto = (crypto) => {
+  if (crypto === store.state.currentCrypto.id) return
+
   store.commit(mutationsName.SET_CURRENT_CRYPTO, crypto)
   store.commit(mutationsName.SET_COUNTDOWN_INTERVAL)
 }
