@@ -19,12 +19,12 @@
     <div class="flex justify-center gap-5">
       <router-link
         to="/crypto-price/"
-        class="py-3 px-12 rounded shadow-lg font-semibold text-sm  text-white bg-purple-700 hover:bg-purple-600"
+        class="py-2 px-8 md:py-3 md:px-12 rounded shadow-lg font-semibold text-sm  text-white bg-purple-700 hover:bg-purple-600"
       >
         BACK
       </router-link>
       <button
-        class="py-3 px-12 rounded shadow-lg font-semibold text-sm text-white bg-yellow-600 hover:bg-yellow-500"
+        class="py-2 px-8 md:py-3 md:px-12 rounded shadow-lg font-semibold text-sm text-white bg-yellow-600 hover:bg-yellow-500"
       >
         SHOW
       </button>
