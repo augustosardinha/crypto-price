@@ -1,7 +1,7 @@
 <template>
   <header class="h-1/6 flex justify-center shadow-xl">
     <router-link
-      to="/"
+      to="/crypto-price/"
       class="flex items-center gap-4"
     >
       <img

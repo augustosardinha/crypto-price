@@ -1,10 +1,12 @@
+import Bitcoin from '../assets/bitcoin.png'
+
 export const state = {
   currentCrypto: {
     id: 'bitcoin',
     name: 'Bitcoin',
-    symbol: 'btc',
-    currentPrice: 'R$ 0,00',
-    source: ''
+    symbol: 'BTC',
+    currentPrice: 'R$ 148.119,00',
+    source: Bitcoin
   },
   countdownInterval: true,
   history: {
