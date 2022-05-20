@@ -1,7 +1,48 @@
-# Vue 3 + Vite
+<div align='center'>
+  <h1> Crypto Price, 
+    <a href="https://augustosardinha.github.io/crypto-price/" target="_blank">
+      deploy
+    </a> 
+  </h1>
+  
+  <img height='450' src='https://i.imgur.com/vev3hDV.png' alt='Crypto Price Home Page' />
+  <h3> Languages and Tools: </h3>
+  <img src='https://skills.thijs.gg/icons?i=html,css,js,vue,tailwind,git' alt='Languages and Tools' />
+ </div>
+ 
+ ## Getting Started
+ ### Install dependencies:
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+```bash
+yarn
+```
 
-## Recommended IDE Setup
+or
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+```bash
+npm install
+```
+___
+
+### Run Website
+
+```bash
+yarn start
+```
+
+or 
+
+```bash
+npm run start
+```
+
+Open [http://localhost:3000/crypto-price/](http://localhost:3000/crypto-price/) with your browser to see the result.
+
+
+## Commands
+
+- `dev`: run development server
+- `build`: creates the production build version
+- `build`: locally preview production build
+
+<div align='center'> Made ❤ by Augusto Sardinha </div>
