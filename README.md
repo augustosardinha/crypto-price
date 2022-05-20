@@ -27,13 +27,13 @@ ___
 ### Run Website
 
 ```bash
-yarn start
+yarn dev
 ```
 
 or 
 
 ```bash
-npm run start
+npm run dev
 ```
 
 Open [http://localhost:3000/crypto-price/](http://localhost:3000/crypto-price/) with your browser to see the result.
