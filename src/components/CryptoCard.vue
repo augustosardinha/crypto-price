@@ -26,7 +26,7 @@
         <CardCountdown />
       </div>
       <router-link
-        :to="`/crypto/${currentCrypto.id}/history`"
+        :to="`/crypto-price/crypto/${currentCrypto.id}/history`"
         class="py-2 px-4 font-semibold text-sm rounded shadow-lg hover:scale-105
         text-purple-50 bg-purple-600 hover:bg-purple-500"
       >

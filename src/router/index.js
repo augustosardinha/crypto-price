@@ -5,17 +5,17 @@ import NotFoundView from '../views/NotFoundView.vue'
 
 const routes = [
   {
-    path: '/',
+    path: '/crypto-price/',
     name: 'home',
     component: HomeView
   },
   {
-    path: '/crypto/:id/history',
+    path: '/crypto-price/crypto/:id/history',
     name: 'crypto',
     component: HistoryView
   },
   {
-    path: '/:pathMatch(.*)*',
+    path: '/crypto-price/:pathMatch(.*)*',
     name: 'not-found',
     component: NotFoundView
   }
